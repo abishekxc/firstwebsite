@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: black;
+    font-weight: bold;
+}
+.nav-container{
+    color: rgb(0, 0, 0);
+    background-color: #EEEBDD;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+nav{
+    float: right;
+}
+ul{
+    display: flex;
+}
+ul a{
+    display: block;
+    padding: 0em 1em;
+    color: black;
+}
+.main{
+    background-color: #810000;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+span{
+    display: block;
+    font-weight: lighter;
+}
+.linkedin{
+    display: inline;
+    padding: 0em 1em 0em 0em;
+}
+.instagram{
+    display: inline;
+    padding: 1em 3.5em;
+}
+.mainicon{
+    display: inline;
+    padding: 0em 4em;
+}
+.about p{
+    color: #FF9090;
+}
+.featured-project{
+    background-color: white;
+    color: black;
+    justify-content: left;
+    padding: 2em;
+}
+.design{
+    color: brown;
+}
+.featured-project p{
+    font-weight: bold;
+    padding-right: 10%;
+    line-height: 1.4em;
+}
+.rightpart{
+    width: 100%;
+    border-radius: 1.5em;
+    box-shadow: 5px 10px 30px black;
+    transition: transform .6s;
+}
+.rightpart:hover{
+    -webkit-transform: scale(1.1);
+}
+.featured2-project{
+    background-color: #790000;
+    color: white;
+    justify-content: right;
+    padding: 0em 2em;
+}
+.design2{
+    color: rgb(232, 156, 156);
+    padding-left: 68%;
+    text-align: right;
+    justify-content: right;
+}
+.featured2{
+    padding-left: 50%;
+    text-align: left;
+    color: rgb(235, 193, 193);
+
+}
+.featured2-project p{
+    font-weight: bold;
+    text-align: right;   
+    padding-left: 12%;
+    padding-bottom: 3em;
+    line-height: 1.4em;
+}
+.rightpart2{
+    width: 100%;
+    border-radius: 1.5em;
+    margin-top: -0.9em;
+    box-shadow: -15px -1px 50px rgb(0, 0, 0);
+    transition: transform .6s;
+}
+.rightpart2:hover{
+    -webkit-transform: scale(1.1);
+}
+.footer{
+    background-color: black;
+    display: grid;
+    padding: 3em 3em;
+    margin-top: -1em;
+}
+.fot-container{
+    display: flex;
+    justify-content: space-between;
+}
+.fot-container a{
+    color: blanchedalmond;
+}
+@media only screen and (min-width: 800px){
+    .featured-project{
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+    .rightpart{
+        margin-top: -3.5em;
+    }
+    .featured2-project{
+        display: grid;
+        grid-template-columns: 60% auto;
+        padding-bottom: 2em;
+    }
+    .featured2{
+        padding-left: 8%;
+    }
+    .featured2-project p{
+        font-weight: bold;
+        text-align: left;   
+        padding-left: 8%;
+    }
+    .design2{
+        padding: 8%;
+    }
+    .rightpart2{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1080px){
+    .logo{
+        padding-left: 3em;
+        text-align: left;
+        font-size: 18px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 40% ;
+        background-color: unset;
+        height: 500px;
+
+    }
+    .wrapper{
+        display: grid;
+        background-color: #790000;
+        width: 860px;
+        height: 700px;
+        margin-left: -4em;
+        margin-top: -4em;
+        padding: 4em;
+        justify-content: left;
+    }
+    .content h1{
+        text-align: left;    
+        padding: 1em;
+        font-size: 50px;
+        justify-content: center;
+    }
+    .about{
+        text-align: left;
+        padding-left: 3.2em;
+        margin-top: -12em;
+        justify-content: center;
+        width: 70%;
+    }
+    .icons{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        margin-top: -15em;
+        padding-left: 3em;
+        justify-content: space-between;
+    }
+    .linkedin{
+        display: flex;
+        justify-content: left; 
+        width: 20%;
+        height: 20%;
+    }
+    .instagram{
+        display: flex;
+        justify-content: left;
+        width: 20%;
+        height: 20%;
+        margin-top: -1em;
+    }
+    .mailicon{
+        display: flex;
+        justify-content: left;
+        width: 29%;
+        height: 40%;
+        padding-left: 2em;
+    }
+    .rightpart{
+        display: flex;
+        width: 40%;
+        margin-top: -40em;
+        margin-left: 30em;
+    }
+    .rightpart2{
+        display: flex;
+        width: 40%;
+        margin-top: -30em;
+        margin-left: 47em;
+    }
+    .inner-transition{
+        margin-top: -9em;
+        padding-left: 5em;
+    }
+    .featured{
+        color: white;
+    }
+    .design{
+        color: rgb(236, 169, 169);
+    }
+    .inner-transition p{
+        color: #EEEBDD;
+        width: 130%;
+    }
+    .featured-project{
+        background-color: white;
+        margin-bottom: -10em;
+    }
+}
